@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useEthereumWallet } from '../hooks/useEthereumWallet';
 import { ethers } from 'ethers';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 export default function Demo() {
   const { 
